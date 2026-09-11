@@ -4,6 +4,8 @@
 
 이번 제작 과정을 다시 쓸 수 있도록 정리한 무료 배포판 `design-guide`입니다.
 
+공식 자료 안내: https://ai-seonbi.github.io/skills/
+
 ## 처음이라면
 
 1. [사용하는 AI 도구별 시작 방법](guides/start-here.md)을 고릅니다.
