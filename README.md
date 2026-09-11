@@ -4,7 +4,7 @@
 
 이번 제작 과정을 다시 쓸 수 있도록 정리한 무료 배포판 `design-guide`입니다.
 
-공식 자료 안내: https://ai-seonbi.github.io/skills/
+공식 자료 안내: https://ai-seonbi.github.io/skills/design-guide/
 
 ## 처음이라면
 
