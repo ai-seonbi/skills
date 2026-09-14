@@ -1,21 +1,21 @@
-# 시작 의뢰서
+# Starter Brief
 
-아래는 답을 모르는 항목을 비워 둘 수 있는 시작 양식이다. 비어 있는 항목을 AI가 사실처럼 채우지 않는다. `이번에 결정할 것`과 `누구를 위한 것`을 알 수 있을 때만 먼저 묻고, 나머지는 작업 중에 보완해도 된다.
+Use this starter template when some answers may still be unknown. Leave unknown fields blank; do not let the AI fill them with invented facts. Ask first only for `Decision to make now` and `Intended audience` when they are unclear. The remaining fields may be completed during the work.
 
 ```text
-만들 것: 예) 온라인 강의 소개 페이지의 첫 화면
-누구를 위한 것: 예) 처음 수강을 고민하는 직장인
-이번에 결정할 것: 예) 첫 화면의 시각 방향
-원하는 결과물: 예) 비교 가능한 정적 시안 2~3개
-반드시 지킬 것: 예) 기존 로고와 제목 문구 유지
-피하고 싶은 것: 예) 장식이 많아 핵심 행동이 흐려지는 구성
-참고 자료와 접근 범위: 예) 공개 링크만, 이미지 저장 없음
-결정하는 사람: 예) 의뢰자
-검토 방법: 예) 데스크톱과 모바일 화면에서 직접 확인
+Deliverable: e.g. the opening screen of an online course landing page
+Intended audience: e.g. working professionals considering the course for the first time
+Decision to make now: e.g. the visual direction of the opening screen
+Desired output: e.g. two or three comparable static options
+Requirements to preserve: e.g. keep the existing logo and title copy
+Elements to avoid: e.g. decoration that obscures the primary action
+References and access scope: e.g. public links only; do not save images
+Decision-maker: e.g. the requester
+Review method: e.g. inspect directly on desktop and mobile screens
 ```
 
-시작 전에 확인할 질문은 이 정도면 충분하다.
+These questions are sufficient before starting:
 
-1. 이번에 고를 한 가지는 무엇인가?
-2. 누가 보고 어떤 행동을 해야 하는가?
-3. 유지할 요소와 피할 요소는 무엇인가?
+1. What is the one thing to choose now?
+2. Who will see it, and what should they do?
+3. Which elements must be preserved, and which should be avoided?

@@ -1,53 +1,53 @@
-# 요청과 수정 요청 예시
+# Example Requests and Refinement Requests
 
-이 문서는 이번 디자인 제작 과정에서 선별한 직접 인용과 그 과정을 바탕으로 한 재구성을 구분한다. 직접 인용은 사용자의 요청 문장만 싣고 개인 맥락을 덜어냈다. 재구성은 특정 도구에서 실행된 결과를 보장하지 않는다.
+This document distinguishes translated excerpts selected from actual requests during the design process from reconstructed practice requests based on that process. The excerpts include only the user's request wording with personal context removed. The reconstructions do not guarantee a result in any particular tool.
 
-## 실제 요청에서 선별한 직접 인용
+## Translated excerpts selected from actual requests
 
-아래 세 문장은 이번 과정에서 사용자가 남긴 요청이다. 어느 문장도 AI 도구의 설치·실행 성공이나 최종 결과를 보장하지 않는다.
+The following three sentences are English translations of requests the user made during the process. None guarantees successful installation or execution of an AI tool, or a final result.
 
-> 레퍼런스 수집은 카드 뉴스에서 하기보다는 구성은 참조하되 디자인은 독창적인 다른 곳을 확인하는게 나을 것 같아
+> Rather than collecting references from card news, I think it would be better to use the composition as a reference but look elsewhere for original design ideas.
 
-> 이렇게 보면 잘 모르겠는 각 레퍼런스 기준으로 표지 템플릿만 구성해서 제안해줘
+> It is hard to tell from this view. Create and propose only a cover template based on each reference.
 
-> E로 확정하고 제목부터 하나씩 정의해나가자
+> Let's choose E and define each element one at a time, starting with the title.
 
-## 재구성한 연습 요청
+## Reconstructed practice requests
 
-### 1. 레퍼런스 조사와 적용 가설
+### 1. Reference research and an application hypothesis
 
 ```text
-내 작업에 맞는 공개 디자인 레퍼런스를 찾아줘.
-각 사례에서 관찰한 점, 가져올 점, 피할 점을 나누고,
-온라인 강의 소개 페이지의 첫 화면에 어떻게 바꿔 쓸지 제안해줘.
-이미지는 저장하지 말고 링크와 해석만 정리해줘.
+Find publicly accessible design references suited to my task.
+For each example, separate observations, elements to adopt, and elements to avoid,
+then propose how to adapt them for the opening screen of an online course landing page.
+Do not save any images; record only links and interpretations.
 ```
 
-### 2. 같은 내용의 여러 방향
+### 2. Multiple directions using the same content
 
 ```text
-아래 내용을 유지한 채 서로 다른 시각 방향의 첫 화면을 3안 제안해줘.
-각 안은 정보 밀도나 타이포그래피 분위기가 분명히 달라야 해.
-안마다 차이, 장점, 주의점, 사용자가 처음 해야 할 행동을 설명해줘.
-결정은 내가 할 테니 한 안을 확정하거나 구현하지는 마.
+Propose three opening-screen options with distinct visual directions while preserving the content below.
+Each option should differ clearly in information density or typographic tone.
+For each one, explain its differences, advantages, cautions, and the first action a user should take.
+I will make the decision, so do not finalize or implement any option.
 ```
 
-### 3. 고른 방향을 좁혀 수정
+### 3. Narrow refinement of a chosen direction
 
 ```text
-B안의 차분한 여백과 제목 위계는 유지해줘.
-제목만 더 또렷하게 보이도록 크기 또는 대비를 조정한 전후안을 나란히 보여줘.
-색, 본문 문구, 버튼 위치는 바꾸지 마.
-모바일에서 잘리지 않는지도 함께 점검해줘.
+Preserve option B's calm spacing and heading hierarchy.
+Show before and after versions side by side, adjusting only the heading's size or contrast to make it clearer.
+Do not change the colors, body copy, or button position.
+Also check that nothing is clipped on mobile.
 ```
 
-이 수정 예시는 실제 요청 이력을 재현하는 문장이 아니다. 이번 과정에서 원본 D 표지의 제목 크기를 53에서 64로만 바꾸고 색·곡선·문구·위치는 유지한 설명용 재현 범위를 바탕으로 썼다.
+This refinement example does not reproduce an actual request history. It is based on an illustrative reconstruction from this process in which only the original option D cover's heading size changed from 53 to 64 while the color, curves, wording, and position were preserved.
 
-### 4. 다음 작업을 위한 기록
+### 4. Record for the next task
 
 ```text
-내가 고른 B안과 이번 수정 내용을 다음 작업용 기록으로 정리해줘.
-내가 확인한 선택 이유와 네 해석을 구분하고,
-색·제목·여백·구성 중 재사용할 기준만 적어줘.
-확인하지 않은 이유나 실제 실행 결과는 만들지 마.
+Turn my choice of option B and this refinement into a record for the next task.
+Separate the reason for the choice that I confirmed from your interpretation,
+and include only reusable criteria for color, headings, spacing, and composition.
+Do not invent unconfirmed reasons or execution results.
 ```

@@ -1,26 +1,26 @@
-# 선택 기록 양식
+# Decision Record Template
 
 ```text
-작업: 
-날짜: 
-결정하는 사람: 
+Task:
+Date:
+Decision-maker:
 
-결정할 범위:
-비교한 안:
+Decision scope:
+Options compared:
 - A:
 - B:
-- C: (있다면)
+- C: (if applicable)
 
-사람이 고른 안:
-사람이 말한 이유: (없으면 `이유 제공 안 됨`)
-AI의 해석 또는 추천: (사람의 이유와 분리)
+Person-confirmed choice:
+Reason stated by the person: (use `Reason not provided` if none was given)
+AI interpretation or recommendation: (keep separate from the person's reason)
 
-유지할 요소:
-바꿀 요소:
-다음 검토에서 확인할 점:
+Elements to preserve:
+Elements to change:
+What to check in the next review:
 
-다음 작업에 재사용할 기준:
-근거가 되는 결과물 또는 링크:
+Criteria to reuse in the next task:
+Supporting deliverable or link:
 ```
 
-확정된 기록을 바꿔야 하면 원문을 덮어쓰기보다 새 기록에 `이전 기록을 대체함`과 이유를 남긴다. 그러면 왜 기준이 바뀌었는지 알 수 있다.
+When an approved record must change, create a new record containing `Supersedes the previous record` and the reason instead of overwriting the original. This preserves why the criteria changed.

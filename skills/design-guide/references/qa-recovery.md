@@ -1,26 +1,26 @@
-# 시각 검토와 복구
+# Visual Review and Recovery
 
-## 검토 순서
+## Review sequence
 
-1. 목적: 처음 보이는 3초 안에 화면의 주제와 주요 행동이 보이는지 확인한다.
-2. 위계: 제목, 설명, 행동의 중요도 차이가 읽히는지 확인한다.
-3. 밀도: 필요 없는 장식이나 정보가 주요 행동을 가리지 않는지 확인한다.
-4. 가독성: 글자 크기, 줄 간격, 색 대비가 충분한지 확인한다.
-5. 경계: 좁은 화면에서 텍스트·버튼·이미지가 잘리거나 겹치지 않는지 확인한다.
-6. 일관성: 고른 방향의 색, 타입, 여백, 구성 원리가 다음 화면에도 같은 의미로 쓰였는지 확인한다.
+1. Purpose: confirm that the subject and primary action are apparent within the first three seconds.
+2. Hierarchy: confirm that the relative importance of the heading, description, and action is legible.
+3. Density: confirm that unnecessary decoration or information does not obscure the primary action.
+4. Readability: confirm that type size, line spacing, and color contrast are sufficient.
+5. Bounds: confirm that text, buttons, and images are not clipped or overlapping on narrow screens.
+6. Consistency: confirm that the chosen direction's color, type, spacing, and composition principles carry the same meaning across subsequent screens.
 
-## 비교 카드의 추가 확인
+## Additional checks for comparison cards
 
-나란히 놓은 카드는 원본 파일 폭이 아니라 실제로 축소되어 표시된 카드 폭에서 확인한다. 특히 한국어 제목·보조문구는 단어 안에서 끊기지 않게 의도한 줄 단위를 정하고, 좁은 카드에서 뷰포트 기준 글자 크기를 쓰지 않는다. 도형·선·링 같은 장식은 텍스트 위를 가로지르지 않는지 확인한다. 파일·브라우저 환경이 있다면 이 항목을 실제 브라우저에서 검토한 뒤 전달한다.
+Review side-by-side cards at their actual reduced display width, not at the source file's full width. For Korean headings and supporting text in particular, set intentional line breaks so words do not split, and do not use viewport-relative type sizes inside narrow cards. Confirm that decorative shapes, lines, and rings do not cross over text. When file and browser access are available, inspect these details in an actual browser before delivery.
 
-## 문제가 있을 때
+## When a problem appears
 
-| 증상 | 먼저 할 일 |
+| Symptom | First action |
 | --- | --- |
-| 무엇을 눌러야 할지 모르겠다 | 주요 행동을 하나로 정하고 나머지는 약하게 만든다. |
-| 제목이 묻힌다 | 제목의 크기·대비·주변 여백 중 하나만 먼저 조정한다. |
-| 화면이 답답하다 | 문장과 장식부터 줄이고, 여백을 늘린 뒤 다시 본다. |
-| 모바일에서 겹친다 | 고정 폭·절대 위치·긴 문장을 점검하고 작은 화면에서 다시 배치한다. |
-| 원본 레퍼런스와 너무 닮았다 | 색·문구·사진·고유한 형태를 제거하고, 관찰한 원리를 새 맥락에 적용한다. |
+| The primary action is unclear | Choose one primary action and reduce the emphasis of the others. |
+| The heading is buried | First adjust only one of its size, contrast, or surrounding space. |
+| The screen feels crowded | Reduce copy and decoration first, increase whitespace, and review again. |
+| Elements overlap on mobile | Check fixed widths, absolute positioning, and long sentences, then reflow the layout on a small screen. |
+| The result looks too much like the original reference | Remove its colors, wording, photography, and distinctive forms, then apply the observed principle in the new context. |
 
-수정 뒤에는 원래 문제와 바꾼 한 가지를 함께 적는다. 시안 파일이 있다는 사실만으로 검토가 끝난 것은 아니다.
+After each refinement, record both the original problem and the one change made. The existence of an option file does not mean the review is complete.

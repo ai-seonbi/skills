@@ -1,29 +1,29 @@
-# 디자인 작업 과정
+# Design Process
 
-## 1. 조사
+## 1. Research
 
-공개 레퍼런스를 볼 때 URL, 확인한 날짜, 관찰, 적용 가설을 함께 적는다. 사실처럼 보이는 해석을 섞지 않는다.
+When reviewing a public reference, record its URL, the date it was reviewed, observations, and an application hypothesis. Do not mix interpretations into factual observations.
 
-| 항목 | 기록 예시 |
+| Field | Example entry |
 | --- | --- |
-| 관찰 | 큰 제목 아래에 하나의 주요 행동이 있다. |
-| 가져올 점 | 제목과 행동 사이의 간격을 넉넉하게 둔다. |
-| 피할 점 | 원문의 색, 사진, 문구, 고유한 일러스트는 복제하지 않는다. |
-| 적용 가설 | 우리 제목과 행동에 맞춰 여백 중심의 첫 화면을 만든다. |
+| Observation | One primary action appears below a large heading. |
+| Element to adopt | Leave generous space between the heading and the action. |
+| Element to avoid | Do not reproduce the source's colors, photography, wording, or distinctive illustrations. |
+| Application hypothesis | Create a spacious opening screen suited to our heading and action. |
 
-## 2. 비교
+## 2. Compare
 
-같은 내용으로 2~3안을 만든다. 바뀌는 축을 하나 또는 둘만 고른다. 예를 들어 정보 밀도, 타이포그래피의 분위기, 이미지의 역할을 바꿀 수 있다. 각 안에는 다음을 붙인다.
+Create two or three options using the same content. Choose only one or two axes to vary, such as information density, typographic tone, or the role of imagery. For each option, include:
 
-- 무엇이 다른가
-- 누구에게 어떤 효과를 기대하는가
-- 무엇을 확인해야 하는가
-- 화면에서 가장 중요한 행동은 무엇인가
+- what is different;
+- the intended effect and audience;
+- what needs to be checked; and
+- the most important action on the screen.
 
-## 3. 선택과 수정
+## 3. Choose and refine
 
-사람이 한 안을 고르고 이유를 말한다. 수정할 때는 유지할 요소와 바꿀 요소를 분리하고, 한 번에 하나의 핵심 변화를 요청한다. 전후를 나란히 두어 변화가 실제로 필요한지 확인한다.
+A person chooses an option and gives their reason. During refinement, separate elements to preserve from elements to change, and request one primary change at a time. Place before and after versions side by side to verify that the change is actually needed.
 
-## 4. 기록과 재사용
+## 4. Record and reuse
 
-확정한 결과에서만 색, 제목 위계, 여백, 구성 원리 같은 재사용 기준을 추린다. 과거 시안을 새 선택 뒤에 자동으로 만들어진 결과처럼 연결하지 않는다. 새 작업은 이 기준을 출발점으로 삼되, 새 대상과 목적에 맞는지 다시 확인한다.
+Extract reusable criteria such as color, heading hierarchy, spacing, and composition principles only from an approved result. Do not connect an earlier option as though it had been produced automatically after a later choice. Use these criteria as a starting point for a new task, then confirm that they suit the new audience and purpose.
