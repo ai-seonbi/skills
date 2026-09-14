@@ -1,8 +1,10 @@
-# 사용하는 AI 도구부터 고르세요
+# design-guide: 사용하는 AI 도구부터 고르세요
 
 이 자료는 디자인을 찾고, 비교하고, 고르고, 기록하는 작업 순서를 담았습니다. AI 모델이나 이미지 생성 서비스를 설치하는 파일은 아닙니다. 같은 그림을 보장하지 않으며, 시안 선택과 피드백은 사람이 합니다.
 
 ## 무엇을 받으면 되나요?
+
+아래 `v0.1.0` ZIP은 당시 배포한 한국어 본문을 보존합니다. [터미널 설치](#터미널에서-설치하기)는 현재 `main`의 영어 스킬 지침과 참조 문서를 받습니다. 두 경로는 배포 버전과 문서 언어가 다릅니다. 이 페이지의 [첫 작업 요청](#첫-작업-요청)은 한국어로 제공됩니다.
 
 - 스킬·설명·실제 예시를 함께 보려면 [전체 자료 ZIP](https://github.com/ai-seonbi/skills/releases/download/v0.1.0/ai-design-guide.zip)을 받으세요.
 - Claude 앱에 올리려면 [스킬 전용 ZIP](https://github.com/ai-seonbi/skills/releases/download/v0.1.0/design-guide-v0.1.0.zip)을 받으세요. 전체 자료 ZIP과 다릅니다.

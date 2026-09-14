@@ -1,4 +1,4 @@
-# 설치 없이 대화로 먼저 체험하기
+# design-guide: 설치 없이 대화로 먼저 체험하기
 
 아래 지침을 복사해 새 대화에 넣고 마지막 세 줄을 채워보세요. 이것은 스킬 설치가 아니라 한 대화에서 절차를 전달하는 체험입니다. 이미지·HTML 생성, 웹 조사, 파일 저장 가능 여부는 쓰는 도구에 따라 다릅니다.
 
@@ -25,4 +25,4 @@
 전달할 내용과 유지할 조건:
 ```
 
-[실제 요청과 수정 연습](../skills/design-guide/references/request-examples.md), [비교·수정 이미지](../examples/README.md)를 함께 참고할 수 있습니다.
+[실제 요청과 수정 연습 · 영어](../skills/design-guide/references/request-examples.md), [비교·수정 이미지](../examples/README.md)를 함께 참고할 수 있습니다. 한국어 요청은 [시작 가이드의 첫 작업 요청](start-here.md#첫-작업-요청)을 참고하세요.
