@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>좋아하는 캐릭터로 만드는 한글·영어 카드 | AI 선비</title>
+  <meta name="description" content="티니핑 한글·영어 카드 PDF 30종과, 캐릭터 이미지를 바꿔 같은 카드 구조를 만드는 프롬프트를 받아보세요.">
+  <style>
+    @font-face{font-family:Pretendard;src:url('../../assets/PretendardVariable.woff2') format('woff2');font-weight:100 900;font-display:swap}
+    @font-face{font-family:Plex;src:url('../../assets/IBMPlexMono-Medium.ttf') format('truetype');font-weight:500;font-display:swap}
+    :root{--paper:#f4efe7;--ink:#302533;--plum:#503362;--pink:#b51d68;--lime:#e4ed97;--line:#d9d1c7;--white:#fffdf8}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Pretendard,system-ui,sans-serif;line-height:1.6;word-break:keep-all}a{color:inherit;text-underline-offset:4px}.wrap{width:min(980px,calc(100% - 34px));margin:auto}.top{display:flex;justify-content:space-between;align-items:center;padding:26px 0;font-family:Plex,monospace}.brand{display:flex;gap:12px;align-items:center;text-decoration:none}.brand img{width:38px;height:38px}.tag{padding:6px 10px;background:var(--plum);color:var(--white);font-size:12px}
+    header{padding:72px 0 64px}.eyebrow{font:500 14px Plex,monospace;color:var(--pink);letter-spacing:.08em}.hero{font-size:clamp(48px,8vw,88px);line-height:1.02;letter-spacing:-.06em;margin:18px 0 24px}.lead{max-width:760px;font-size:clamp(20px,3vw,28px);color:#685f69}.mark{background:var(--lime);padding:0 .12em}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}.button{display:inline-block;padding:14px 20px;background:var(--plum);color:var(--white);text-decoration:none;font-weight:800;border:0;cursor:pointer;font:800 16px Pretendard}.button.alt{background:var(--white);color:var(--plum);border:2px solid var(--plum)}
+    section{padding:66px 0;border-top:2px solid var(--ink)}h2{font-size:clamp(34px,5vw,52px);line-height:1.12;letter-spacing:-.04em;margin:0 0 28px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:22px}.card{background:var(--white);padding:22px}.card img{display:block;width:100%;height:auto}.card small{font:500 12px Plex,monospace;color:var(--pink)}.card h3{font-size:26px;margin:10px 0 6px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step{padding:24px;background:var(--plum);color:var(--white)}.step b{display:block;color:var(--lime);font:500 14px Plex,monospace;margin-bottom:15px}.step span{font-size:22px;font-weight:760}.downloads{display:grid;grid-template-columns:1.2fr 1fr;gap:18px}.download{padding:28px;border:2px solid var(--plum);background:var(--white)}.download.primary{background:var(--plum);color:var(--white)}.download h3{font-size:28px;margin:0 0 8px}.download p{color:inherit;margin:0 0 18px}.download a{font-weight:850;color:var(--pink)}.download.primary a{color:var(--lime)}
+    .prompt{background:var(--white);border:2px solid var(--plum);padding:22px}.prompt-tools{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:16px}.prompt-tools span{font:500 13px Plex,monospace;color:var(--pink)}pre{margin:0;max-height:470px;overflow:auto;white-space:pre-wrap;background:#2e2133;color:var(--white);padding:22px;font:500 14px/1.65 Plex,monospace}.copy{border:0;background:var(--lime);color:var(--ink);padding:11px 15px;font-weight:850;cursor:pointer}.note{color:#746b74}.print{padding:24px;background:var(--lime);font-size:20px;font-weight:720}footer{padding:40px 0 70px;color:#746b74}
+    @media(max-width:720px){header{padding:45px 0}.pair,.steps,.downloads{grid-template-columns:1fr}.hero{font-size:49px}.prompt-tools{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top"><a class="brand" href="../../"><img src="../../assets/logo-black.svg" alt=""><span>@ai.seonbi</span></a><span class="tag">무료 자료</span></div>
+    <header>
+      <div class="eyebrow">HANGUL · ENGLISH · TRACE</div>
+      <h1 class="hero">좋아하는 캐릭터로<br><span class="mark">따라쓰기 카드</span> 만들기</h1>
+      <p class="lead">완성된 티니핑 카드 30종과, 원하는 캐릭터 이미지로 같은 구성을 만드는 프롬프트를 함께 준비했습니다.</p>
+      <div class="actions"><a class="button" href="downloads/hangul-card-starter-kit.zip" download>전체 자료 받기</a><a class="button alt" href="#prompt">프롬프트 먼저 보기</a></div>
+    </header>
+
+    <section>
+      <h2>이미지만 바꿔도<br>구조는 그대로</h2>
+      <div class="pair">
+        <article class="card"><small>FRONT / 한글</small><h3>획순을 보고 따라 쓰기</h3><img src="test/sample-front-ko.png" alt="토끼 캐릭터를 넣은 한글 카드 테스트 결과"></article>
+        <article class="card"><small>BACK / ENGLISH</small><h3>영어도 같은 방식으로</h3><img src="test/sample-back-en.png" alt="토끼 캐릭터를 넣은 영어 카드 테스트 결과"></article>
+      </div>
+    </section>
+
+    <section>
+      <h2>만드는 방법은<br>세 단계입니다</h2>
+      <div class="steps">
+        <div class="step"><b>01 / UPLOAD</b><span>캐릭터와 앞·뒷면 참고 이미지를 올립니다.</span></div>
+        <div class="step"><b>02 / CHANGE</b><span>프롬프트에서 한글·영어 이름만 바꿉니다.</span></div>
+        <div class="step"><b>03 / EXPORT</b><span>미리보기를 확인하고 PDF로 저장합니다.</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>준비한 자료</h2>
+      <div class="downloads">
+        <article class="download primary"><h3>한 번에 받기</h3><p>30종 PDF, 프롬프트, 레이아웃 참고 이미지, 생성 테스트 결과가 들어 있습니다.</p><a href="downloads/hangul-card-starter-kit.zip" download>전체 묶음 ZIP 다운로드</a></article>
+        <article class="download"><h3>티니핑 카드 30종</h3><p>한글 앞면과 영어 뒷면, 총 60페이지입니다.</p><a href="downloads/teenieping-30-tracing-cards.pdf" download>PDF만 다운로드</a></article>
+        <article class="download"><h3>프롬프트</h3><p>캐릭터 이미지와 이름을 바꿔 같은 구성을 만드는 요청문입니다.</p><a href="downloads/prompt.txt" download>TXT 다운로드</a></article>
+        <article class="download"><h3>테스트 PDF</h3><p>새 캐릭터 이미지로 실제 생성한 한글·영어 양면 카드입니다.</p><a href="test/sample-rabbit-duplex.pdf" download>테스트 PDF 다운로드</a></article>
+      </div>
+    </section>
+
+    <section id="prompt">
+      <h2>그대로 복사해서<br>사용하세요</h2>
+      <div class="prompt"><div class="prompt-tools"><span>IMAGE 1 · CHARACTER / IMAGE 2 · FRONT / IMAGE 3 · BACK</span><button class="copy" type="button">프롬프트 복사</button></div><pre>프롬프트를 불러오는 중입니다.</pre></div>
+      <p class="note">대괄호 안의 한글 이름, 영어 이름, 카드 번호만 바꾸면 됩니다.</p>
+    </section>
+
+    <section><div class="print">PDF는 100% 실제 크기로 출력하세요. 페이지 맞춤이나 자동 축소는 끄는 편이 좋습니다.</div></section>
+    <footer>AI 선비 · 좋아하는 그림으로 만드는 한글·영어 카드</footer>
+  </div>
+  <script>
+    const pre=document.querySelector('pre'),button=document.querySelector('.copy');
+    fetch('downloads/prompt.txt').then(response=>response.text()).then(text=>pre.textContent=text).catch(()=>pre.textContent='프롬프트 TXT 파일을 내려받아 사용해 주세요.');
+    button.addEventListener('click',async()=>{await navigator.clipboard.writeText(pre.textContent);button.textContent='복사했습니다';setTimeout(()=>button.textContent='프롬프트 복사',1500)});
+  </script>
+</body>
+</html>
